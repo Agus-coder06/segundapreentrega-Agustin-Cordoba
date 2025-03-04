@@ -1,77 +1,77 @@
 body {
-    background-color: #000000;
+    background-color: #000000;                                      /* fondo sitio */
 }
-.navbar {
-    background-color: #d3a97c !important; /* Color personalizado */
-    padding-top: 15px; /* Aumenta el espacio superior */
-    padding-bottom: 15px; /* Aumenta el espacio inferior */
-    min-height: 80px; /* Ajusta la altura mínima del navbar */
+.navbar {                                                             /* estilos para la barra */
+    background-color: #d3a97c !important;                           /* Color personalizado */
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    min-height: 80px; 
   }
-  .navbar-brand {
-    margin-left: 50px; /* Ajusta el valor según necesites */
+  .navbar-brand {                                                      /* Ajuste del margen izquierdo del logo */
+    margin-left: 50px; 
   }
-  .navbar-nav .nav-link {
-    font-size: 1.5rem; /* Aumenta el tamaño del texto */
+  .navbar-nav .nav-link {                                               /* Tamaño de fuente y margen */
+    font-size: 1.5rem; 
     margin-right: 30px;
   }
-  .navbar-nav {
-    margin-left: -50px; /* Ajusta el valor según lo necesites */
+  .navbar-nav {                                                         /* Ajuste del margen de la barra de navegación */
+    margin-left: -50px; 
   }
-  .navbar-brand img {
-    width: 120px; /* Ajusta según necesites */
+  .navbar-brand img {                                                   /* Tamaño del logo en la barra de navegación */
+    width: 120px; 
     height: 120;
   }
-.carousel-item{
-    height: 80vh;
+.carousel-item{                                                         /* Estilos para los elementos del carrusel */
+    height: 80vh;                                                       /* p la altura del carousel */
     img{
         height: 100%;
         width: 100%;
         object-fit: cover;
     }
 }
-#sobre-nosotros {
+#sobre-nosotros {                                                       /* sec sobre nosotros */
     background-color: #f4f4f4;
     padding: 30px;
     margin: 20px auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 850px; /* Reduce el ancho del contenedor */
-    text-align: center; /* Centra el contenido */
+    max-width: 850px; 
+    text-align: center; 
 }
 
-#sobre-nosotros h2,
+#sobre-nosotros h2,                                                     /* centrar titl */
 #sobre-nosotros h3 {
     text-align: center;
 }
 
-#sobre-nosotros p {
-    max-width: 500px; /* Reduce el ancho del párrafo */
-    margin: 0 auto; /* Centra el texto */
+#sobre-nosotros p {                                                 /* ajustes parrafo */
+    max-width: 500px; 
+    margin: 0 auto; 
     text-align: justify;
     font-size: 1.1em;
     line-height: 1.6;
 }
 
-#sobre-nosotros ul {
+#sobre-nosotros ul {                                                    /* Lista dentro de "Sobre Nosotros" */
     list-style-type: none;
     padding: 0;
     text-align: center;
 }
 
-#sobre-nosotros li {
+#sobre-nosotros li {                                                /* Estilos para los elementos de la lista en "Sobre Nosotros" */
     font-size: 1.2em;
     background-color: #fff;
     padding: 10px;
     margin: 10px auto;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 400px; /* Reduce el ancho de la lista */
+    max-width: 400px; 
 }
 /* Para los videos */
 .video-container iframe,
 .map-container iframe {
-    border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    border-radius: 10px; 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
 }
 
 /* Para que los videos y mapas sean responsivos */
@@ -86,7 +86,7 @@ footer {
     padding: 20px 0;
     background-color: #333;
     color: white;
-    margin-top: 50px; /* Espacio superior */
+    margin-top: 50px; 
 }
 
 .footer-nav {
