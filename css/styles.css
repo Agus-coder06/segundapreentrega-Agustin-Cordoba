@@ -1,0 +1,14 @@
+.navbar {
+    background-color: #d3a97c !important; /* Color personalizado */
+    padding-top: 15px; /* Aumenta el espacio superior */
+    padding-bottom: 15px; /* Aumenta el espacio inferior */
+    min-height: 80px; /* Ajusta la altura mínima del navbar */
+  }
+.carousel-item{
+    height: 80vh;
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
