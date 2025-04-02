@@ -3,14 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Dra. Monsalvo</title>
+
+    <!-- SEO -->
+    <meta name="description" content="Asesoría legal profesional en derecho civil, penal y laboral. Experiencia y compromiso para defender tus derechos.">
+    <meta name="keywords" content="abogada, derecho civil, asesoría legal, coaching jurídico, derecho laboral, derecho comercial, derecho penal, robos, hurtos, ventas ilegales">
     
+    <title>Dra. Monsalvo</title>
+
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="icon" type="icon/ico" href="favicon.ico">
   </head>
   <body>
     <header> 
+      <!-- BARRA DE NAV -->
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="./index.html">
@@ -43,38 +49,50 @@
     </header>
 
     <main> 
-      <h1 class="text-center" style="color: #d3a97c;">Más de 25 años de profesión</h1>
+      <!-- encabezado h1 -->
+      <h1 class="text-center" style="color: #d3a97c; font-style: italic;">Más de 25 años de profesión</h1>
       <section class="container-fluid px-0">
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="./assets/img/body/ft1.jpeg" class="d-block w-100" alt="">
+            <!-- Indicadores del carrusel -->
+            <ul class="carousel-indicators">
+                <li data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2"></li>
+                <li data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="3"></li>
+                <li data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="4"></li>
+            </ul>
+    
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/body/ft1.jpeg" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/body/ft2.webp" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/body/ft3.png" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/body/ft4.png" class="d-block w-100" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/body/ft5.png" class="d-block w-100" alt="">
+                </div>
             </div>
-            <div class="carousel-item">
-              <img src="./assets/img/body/ft2.webp" class="d-block w-100" alt="">
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/img/body/ft3.png" class="d-block w-100" alt="">
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/img/body/ft4.png" class="d-block w-100" alt="">
-            </div>
-            <div class="carousel-item">
-              <img src="./assets/img/body/ft5.png" class="d-block w-100" alt="">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div> 
-      </section>
+    
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
     </main>
-
+    
+    <!-- sobre nosotros -->
     <section id="sobre-nosotros" class="container text-center">
       <h2>¿Quiénes somos?</h2>
       <p> Somos profesionales abocadas al ejercicio de la abogacía, en las áreas del Fuero Penal, Civil y Laboral. Litigamos en las Jurisdicciones de la Ciudad Autónoma de Buenos Aires, Nación y Gran Buenos Aires. Además, brindamos servicio de Coaching Jurídico, asesoramos a colegas en el ejercicio de la profesión, resolución de conflictos y en la organización de su estudio jurídico.</p>
@@ -85,6 +103,49 @@
         <li>Laboral & Empresarial</li>
         <li>Civil</li>
       </ul>
+    </section>
+
+    <!-- imagenes con animacion -->
+    <section class="container mt-5">
+      <h2 class="text-center" style="font-size: 50px; color: #d3a97c;">Servicios</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <figure class="imghvr-push-left">
+            <img src="./assets/img/body/ft2.webp" alt="Coaching jurídico">
+            <figcaption>
+              <h3>Coaching Jurídico</h3>
+              <p>Guía para abogados en su carrera y gestión de estudios.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4">
+          <figure class="imghvr-push-left">
+            <img src="./assets/img/body/ft3.png" alt="Derecho Penal">
+            <figcaption>
+              <h3>Derecho Penal</h3>
+              <p>Defensa en procesos penales y asesoramiento legal.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4">
+          <figure class="imghvr-push-left">
+            <img src="./assets/img/body/ft4.png" alt="Laboral & Empresarial">
+            <figcaption>
+              <h3>Derecho Laboral & Empresarial</h3>
+              <p>En defensa del trabajador o del empresario.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="col-md-4">
+          <figure class="imghvr-push-left">
+            <img src="./assets/img/body/ft5.png" alt="Derecho Civil">
+            <figcaption>
+              <h3>Derecho Civil</h3>
+              <p>En defensa de los derechos y obligaciones entre personas y bienes.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
     </section>
 
     <div class="content container">
@@ -99,6 +160,7 @@
       </div>
     </div>
 
+    <!-- contacto etc -->
     <section class="container mt-5">
       <h2 class="text-center" style="font-size: 50px; color: #d3a97c;">Contacto</h2>
       <form class="row g-3">
@@ -119,6 +181,12 @@
         </div>
       </form>
     </section>
+
+
+    <!-- boton de wsp -->
+    <a href="https://wa.me/1127961231" class="whatsapp-button" target="_blank">
+      <img src="./assets/img/body/wsp.webp" alt="WhatsApp">
+    </a>
 
     <footer class="mt-5 bg-dark text-white py-3">
       <div class="footer-nav text-center">

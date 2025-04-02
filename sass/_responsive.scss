@@ -1,0 +1,24 @@
+//pantallas 
+/* Estilos para pantallas pequeñas (móviles) */
+@media (max-width: 576px) {
+    .footer-nav li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .footer-contact p {
+        font-size: 12px;
+    }
+}
+
+/* Estilos generales para asegurar que el diseño se vea bien tanto en móvil como en escritorio */
+@media (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-nav {
+        text-align: right;
+    }
+}

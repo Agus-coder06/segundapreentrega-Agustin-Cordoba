@@ -1,0 +1,27 @@
+//encabezado
+@use "variables" as *;
+
+.navbar { 
+    background-color: $primary-color !important;
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    min-height: 80px; 
+}
+
+.navbar-brand { 
+    margin-left: 50px; 
+}
+
+.navbar-nav .nav-link { 
+    font-size: 1.5rem; 
+    margin-right: 30px; 
+}
+
+.navbar-nav { 
+    margin-left: -50px; 
+}
+
+.navbar-brand img { 
+    width: 120px; 
+    height: auto; 
+}

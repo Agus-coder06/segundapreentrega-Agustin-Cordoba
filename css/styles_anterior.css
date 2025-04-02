@@ -1,0 +1,138 @@
+body {
+    background-color: #000000;                                      /* fondo sitio */
+}
+.navbar {                                                             /* estilos para la barra */
+    background-color: #d3a97c !important;                           /* Color personalizado */
+    padding-top: 15px; 
+    padding-bottom: 15px; 
+    min-height: 80px; 
+  }
+  .navbar-brand {                                                      /* Ajuste del margen izquierdo del logo */
+    margin-left: 50px; 
+  }
+  .navbar-nav .nav-link {                                               /* Tamaño de fuente y margen */
+    font-size: 1.5rem; 
+    margin-right: 30px;
+  }
+  .navbar-nav {                                                         /* Ajuste del margen de la barra de navegación */
+    margin-left: -50px; 
+  }
+  .navbar-brand img {                                                   /* Tamaño del logo en la barra de navegación */
+    width: 120px; 
+    height: 120;
+  }
+.carousel-item{                                                         /* Estilos para los elementos del carrusel */
+    height: 80vh;                                                       /* p la altura del carousel */
+    img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+#sobre-nosotros {                                                       /* sec sobre nosotros */
+    background-color: #f4f4f4;
+    padding: 30px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 850px; 
+    text-align: center; 
+}
+
+#sobre-nosotros h2,                                                     /* centrar titl */
+#sobre-nosotros h3 {
+    text-align: center;
+}
+
+#sobre-nosotros p {                                                 /* ajustes parrafo */
+    max-width: 500px; 
+    margin: 0 auto; 
+    text-align: justify;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+#sobre-nosotros ul {                                                    /* Lista dentro de "Sobre Nosotros" */
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+#sobre-nosotros li {                                                /* Estilos para los elementos de la lista en "Sobre Nosotros" */
+    font-size: 1.2em;
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px; 
+}
+/* Para los videos */
+.video-container iframe,
+.map-container iframe {
+    border-radius: 10px; 
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+/* Para que los videos y mapas sean responsivos */
+.video-container iframe,
+.map-container iframe {
+    max-width: 100%; /* Se adaptan al tamaño del contenedor */
+}
+
+/* Footer centrado y ajustado */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+    margin-top: 50px; 
+}
+
+.footer-nav {
+    margin-bottom: 10px;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.footer-contact p {
+    font-size: 14px;
+}
+
+/* Estilos para pantallas pequeñas (móviles) */
+@media (max-width: 576px) {
+    .footer-nav li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .footer-contact p {
+        font-size: 12px;
+    }
+}
+
+/* Estilos generales para asegurar que el diseño se vea bien tanto en móvil como en escritorio */
+@media (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-nav {
+        text-align: right;
+    }
+}

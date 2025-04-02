@@ -1,0 +1,17 @@
+// variables.scss
+$primary-color: #d3a97c !default;
+$secondary-color: #000000 !default;
+
+//mapa 
+$colores: (
+    "primary": #d3a97c,
+    "secondary": #000000,
+    "background-light": #f4f4f4,
+    "text": #333
+);
+
+
+//mixin 
+@mixin box-shadow($x, $y, $blur, $color) {
+    box-shadow: $x $y $blur $color;
+}

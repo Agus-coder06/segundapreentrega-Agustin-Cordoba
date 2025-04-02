@@ -1,0 +1,29 @@
+//animaciones para wsp e imagenes
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.whatsapp-button {
+    animation: spin 2s linear infinite;
+}
+
+.imghvr-push-left {
+    img {
+      width: 100%;
+      height: auto;
+      transition: transform 0.3s ease-in-out;
+    }
+    
+    figcaption {
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
+      padding: 15px;
+      font-size: 18px;
+    }
+    
+    &:hover img {
+      transform: translateX(-10px);
+    }
+  }
